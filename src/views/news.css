@@ -124,6 +124,14 @@
   text-decoration: none;
 }
  
+.news-navlink3 {
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+ 
 .news-link11 {
   font-style: normal;
   font-family: "Poppins";
@@ -136,18 +144,10 @@
   font-style: normal;
   font-family: "Poppins";
   font-weight: 500;
-  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
  
-.news-link13 {
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 500;
-  text-decoration: none;
-}
- 
-.news-navlink3 {
+.news-navlink4 {
   display: contents;
 }
  
@@ -188,6 +188,20 @@
   justify-content: center;
 }
  
+.news-link13 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-decoration: none;
+}
+ 
+.news-link13:hover {
+  opacity: 0.5;
+}
+ 
 .news-link14 {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
@@ -209,7 +223,6 @@
   font-style: normal;
   font-family: "Poppins";
   font-weight: 500;
-  text-decoration: none;
 }
  
 .news-link15:hover {
@@ -239,19 +252,6 @@
 }
  
 .news-link17:hover {
-  opacity: 0.5;
-}
- 
-.news-link18 {
-  fill: var(--dl-color-gray-black);
-  color: var(--dl-color-gray-black);
-  font-size: 25px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 500;
-}
- 
-.news-link18:hover {
   opacity: 0.5;
 }
  
@@ -391,7 +391,7 @@
   justify-content: flex-start;
 }
  
-.news-link19 {
+.news-link18 {
   display: contents;
 }
  
@@ -417,7 +417,7 @@
   justify-content: flex-start;
 }
  
-.news-link20 {
+.news-link19 {
   display: contents;
 }
  
@@ -444,7 +444,7 @@
   height: 18px;
 }
  
-.news-link21 {
+.news-link20 {
   display: contents;
 }
  
@@ -472,7 +472,7 @@
   height: 18px;
 }
  
-.news-link22 {
+.news-link21 {
   display: contents;
 }
  
@@ -499,7 +499,7 @@
   height: 18px;
 }
  
-.news-link23 {
+.news-link22 {
   display: contents;
 }
  
@@ -551,6 +551,18 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
 }
  
+.news-link23 {
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-family: "Poppins";
+  line-height: 21px;
+  text-decoration: none;
+}
+ 
+.news-link23:hover {
+  color: rgba(196, 196, 196, 0.5);
+}
+ 
 .news-link24 {
   color: rgb(196, 196, 196);
   font-size: 20px;
@@ -592,21 +604,9 @@
   font-size: 20px;
   font-family: "Poppins";
   line-height: 21px;
-  text-decoration: none;
 }
  
 .news-link27:hover {
-  color: rgba(196, 196, 196, 0.5);
-}
- 
-.news-link28 {
-  color: rgb(196, 196, 196);
-  font-size: 20px;
-  font-family: "Poppins";
-  line-height: 21px;
-}
- 
-.news-link28:hover {
   color: rgba(196, 196, 196, 0.5);
 }
  
@@ -627,6 +627,18 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
 }
  
+.news-link28 {
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-family: "Poppins";
+  line-height: 21px;
+  text-decoration: none;
+}
+ 
+.news-link28:hover {
+  color: rgba(196, 196, 196, 0.5);
+}
+ 
 .news-link29 {
   color: rgb(196, 196, 196);
   font-size: 20px;
@@ -636,18 +648,6 @@
 }
  
 .news-link29:hover {
-  color: rgba(196, 196, 196, 0.5);
-}
- 
-.news-link30 {
-  color: rgb(196, 196, 196);
-  font-size: 20px;
-  font-family: "Poppins";
-  line-height: 21px;
-  text-decoration: none;
-}
- 
-.news-link30:hover {
   color: rgba(196, 196, 196, 0.5);
 }
  
@@ -684,7 +684,7 @@
   background-color: rgba(255, 255, 255, 0);
 }
  
-.news-link31 {
+.news-link30 {
   display: contents;
 }
  
@@ -706,7 +706,7 @@
   background-color: rgba(255, 255, 255, 0);
 }
  
-.news-link32 {
+.news-link31 {
   display: contents;
 }
  
@@ -735,6 +735,9 @@
   .news-links1 {
     margin-right: var(--dl-space-space-threeunits);
   }
+  .news-link13 {
+    font-size: 25px;
+  }
   .news-link14 {
     font-size: 25px;
   }
@@ -745,9 +748,6 @@
     font-size: 25px;
   }
   .news-link17 {
-    font-size: 25px;
-  }
-  .news-link18 {
     font-size: 25px;
     font-family: Poppins;
   }
@@ -776,10 +776,10 @@
 }
  
 @media(max-width: 1200px) {
-  .news-link14 {
+  .news-link13 {
     text-align: center;
   }
-  .news-link15 {
+  .news-link14 {
     fill: var(--dl-color-gray-black);
     color: var(--dl-color-gray-black);
     font-size: 25px;
@@ -788,7 +788,7 @@
     font-family: Poppins;
     font-weight: 500;
   }
-  .news-link16 {
+  .news-link15 {
     fill: var(--dl-color-gray-black);
     color: var(--dl-color-gray-black);
     font-size: 25px;
@@ -799,7 +799,7 @@
     line-height: 24px;
     text-decoration: none;
   }
-  .news-link17 {
+  .news-link16 {
     fill: var(--dl-color-gray-black);
     color: var(--dl-color-gray-black);
     font-size: 25px;
@@ -808,7 +808,7 @@
     font-weight: 500;
     line-height: 24px;
   }
-  .news-link18 {
+  .news-link17 {
     fill: var(--dl-color-gray-black);
     color: var(--dl-color-gray-black);
   }
@@ -1020,7 +1020,7 @@
     margin-bottom: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .news-link11 {
+  .news-navlink3 {
     font-size: 20px;
     align-self: flex-start;
     font-style: normal;
@@ -1029,7 +1029,7 @@
     margin-bottom: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .news-link12 {
+  .news-link11 {
     font-size: 20px;
     align-self: flex-start;
     font-style: normal;
@@ -1039,7 +1039,7 @@
     margin-bottom: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .news-link13 {
+  .news-link12 {
     font-size: 20px;
     align-self: flex-start;
     font-style: normal;
@@ -1112,6 +1112,12 @@
     font-weight: 500;
     line-height: 24px;
   }
+  .news-link23 {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    align-self: center;
+    line-height: 21px;
+  }
   .news-link24 {
     color: rgb(196, 196, 196);
     font-size: 20px;
@@ -1127,15 +1133,9 @@
   .news-link26 {
     color: rgb(196, 196, 196);
     font-size: 20px;
-    align-self: center;
     line-height: 21px;
   }
   .news-link27 {
-    color: rgb(196, 196, 196);
-    font-size: 20px;
-    line-height: 21px;
-  }
-  .news-link28 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     line-height: 21px;
@@ -1151,14 +1151,14 @@
     font-weight: 500;
     line-height: 24px;
   }
-  .news-link29 {
+  .news-link28 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     align-self: center;
     font-family: Poppins;
     line-height: 21px;
   }
-  .news-link30 {
+  .news-link29 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     text-align: center;

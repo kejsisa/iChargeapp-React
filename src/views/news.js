@@ -75,21 +75,21 @@ const News = (props) => {
                 <Link to="/" className="news-navlink2">
                   <span>{/*locale-text_T2qKr0*/}</span>
                 </Link>
-                <a href="##banner" className="news-link11">
+                <Link to="/" className="news-navlink3">
                   <span>{/*locale-text_2pLiaj*/}</span>
-                </a>
+                </Link>
                 <a
                   href="https://m.icharge.app/#/homepage"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="news-link12"
+                  className="news-link11"
                 >
                   <span>{/*locale-text_pQjumr*/}</span>
                 </a>
-                <a href="#footer" className="news-link13">
+                <a href="#footer" className="news-link12">
                   <span>{/*locale-text_p6Cgyp*/}</span>
                 </a>
-                <Link to="/kontakt" className="news-navlink3">
+                <Link to="/kontakt" className="news-navlink4">
                   <div className="news-book-btn">
                     <span className="news-text1">
                       <span>{/*locale-text_TRQYsw*/}</span>
@@ -100,24 +100,24 @@ const News = (props) => {
             </div>
           </div>
           <nav className="news-links1">
-            <Link to="/" className="news-link14">
+            <Link to="/" className="news-link13">
               <span>{/*locale-Link_Lb9zA0*/}</span>
             </Link>
-            <Link to="/" className="news-link15">
+            <Link to="/" className="news-link14">
               <span>{/*locale-Link_c6SMnV*/}</span>
             </Link>
             <a
               href="https://m.icharge.app/#/homepage"
               target="_blank"
               rel="noreferrer noopener"
-              className="news-link16"
+              className="news-link15"
             >
               <span>{/*locale-Link_ws056J*/}</span>
             </a>
-            <Link to="/fushata" className="news-link17">
+            <Link to="/fushata" className="news-link16">
               <span>{/*locale-Link_8wzP9i*/}</span>
             </Link>
-            <a href="#footer" className="news-link18">
+            <a href="#footer" className="news-link17">
               <span>{/*locale-Link_XT55fr*/}</span>
             </a>
           </nav>
@@ -152,7 +152,7 @@ const News = (props) => {
         <div className="news-content">
           <div className="news-information">
             <div className="news-heading2">
-              <a href="##content" className="news-link19">
+              <a href="##content" className="news-link18">
                 <img
                   alt="pastedImage"
                   src="/logo_icharge_primary_page-0002-removebg-preview-200h-200h-200h.webp"
@@ -169,7 +169,7 @@ const News = (props) => {
                 href="https://www.instagram.com/icharge.alb/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link20"
+                className="news-link19"
               >
                 <div className="news-social1">
                   <svg
@@ -199,7 +199,7 @@ const News = (props) => {
                 href="https://www.tiktok.com/@icharge.app"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link21"
+                className="news-link20"
               >
                 <div className="news-social2">
                   <svg
@@ -219,7 +219,7 @@ const News = (props) => {
                 href="https://www.linkedin.com/feed/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link22"
+                className="news-link21"
               >
                 <div className="news-social3">
                   <svg
@@ -243,7 +243,7 @@ const News = (props) => {
                 href="https://www.facebook.com/icharge.alb"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link23"
+                className="news-link22"
               >
                 <div className="news-social4">
                   <svg
@@ -268,24 +268,24 @@ const News = (props) => {
               <span className="news-header3">
                 <span>{/*locale-Header_BtUv-s*/}</span>
               </span>
-              <Link to="/" className="news-link24">
+              <Link to="/" className="news-link23">
                 <span>{/*locale-Link_3-Ce5E*/}</span>
               </Link>
-              <Link to="/" className="news-link25">
+              <Link to="/" className="news-link24">
                 <span>{/*locale-Link_7ftX7X*/}</span>
               </Link>
               <a
                 href="https://m.icharge.app/#/homepage"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link26"
+                className="news-link25"
               >
                 <span>{/*locale-Link_Ja3lLH*/}</span>
               </a>
-              <Link to="/kushtet-e-perdorimit" className="news-link27">
+              <Link to="/kushtet-e-perdorimit" className="news-link26">
                 <span>{/*locale-Link_beRHr7*/}</span>
               </Link>
-              <span className="news-link28">
+              <span className="news-link27">
                 <span>{/*locale-Link_rQg6BF*/}</span>
               </span>
             </div>
@@ -293,12 +293,12 @@ const News = (props) => {
               <span className="news-header4">
                 <span>{/*locale-Header_XFNQek*/}</span>
               </span>
-              <a href="tel:+355694080227" className="news-link29">
+              <a href="tel:+355694080227" className="news-link28">
                 <span>{/*locale-Link_W3010N*/}</span>
               </a>
               <a
                 href="mailto:office@icharge.app?subject="
-                className="news-link30"
+                className="news-link29"
               >
                 <span>{/*locale-Link_8MNt2n*/}</span>
               </a>
@@ -312,7 +312,7 @@ const News = (props) => {
                 href="https://apps.apple.com/lv/app/icharge-app/id6479523452"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link31"
+                className="news-link30"
               >
                 <img
                   alt="pastedImage"
@@ -328,7 +328,7 @@ const News = (props) => {
                 href="https://play.google.com/store/apps/details?id=com.icharge.mobile.app"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="news-link32"
+                className="news-link31"
               >
                 <img
                   alt="pastedImage"
